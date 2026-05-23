@@ -1,2 +1,2 @@
-# Maaktek-Hytech-cnc-camara
-HyTech CNC camara monitoring system with camera, stacklight, MQTT
+# Maaktek-Hytech-cnc-camera
+HyTech CNC camera monitoring system with camera, stacklight, MQTT
