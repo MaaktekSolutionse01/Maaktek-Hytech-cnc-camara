@@ -1,0 +1,27 @@
+{
+    "apache_host": "raspberrypi.local",
+    "apache_port": 80,
+    "api_path": "/dnc/api.php",
+    "mqtt_host": "raspberrypi.local",
+    "mqtt_port": 1883,
+    "mqtt_topic": "hytech/stacklight",
+    "machine_name": "CNC-001",
+    "debug_mode": false,
+    "sample_interval": 1,
+    "presence_threshold": 0.005,
+    "camera_settings": {
+        "exposure_time": 5000,
+        "analogue_gain": 0.8,
+        "colour_gains": [1.5, 1.5]
+    },
+    "calibration": {
+        "red": {"h_mean": 0, "s_mean": 100, "v_mean": 150},
+        "yellow": {"h_mean": 25, "s_mean": 150, "v_mean": 200},
+        "green": {"h_mean": 65, "s_mean": 100, "v_mean": 180}
+    },
+    "color_bands": {
+        "red": [[0, 10], [170, 179]],
+        "yellow": [[15, 35]],
+        "green": [[35, 95]]
+    }
+}
